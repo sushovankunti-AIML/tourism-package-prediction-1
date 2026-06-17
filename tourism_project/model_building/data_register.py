@@ -6,7 +6,8 @@ import os
 repo_id = "Sushovankunti/tourism-package-prediction"
 repo_type = "dataset"
 
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = "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"
+#os.environ["HF_TOKEN"] = ""
 
 # Initialize API client
 api = HfApi(token=os.getenv("HF_TOKEN"))
