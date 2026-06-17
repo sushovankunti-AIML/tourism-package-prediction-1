@@ -7,7 +7,7 @@ repo_id = "Sushovankunti/tourism-package-prediction"
 repo_type = "dataset"
 
 # Initialize API client
-print(os.getenv("HF_TOKEN"))
+#print(os.getenv("HF_TOKEN"))
 api = HfApi(token=os.getenv("HF_TOKEN"))
 
 # Step 1: Check if the space exists
