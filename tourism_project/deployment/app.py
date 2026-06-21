@@ -59,8 +59,8 @@ input_data = pd.DataFrame([{
 }])
 
 
-if st.button("Predict Failure"):
+if st.button("Predict Tourism Package"):
     prediction = model.predict(input_data)[0]
-    result = "Tourism Package" if prediction == 1 else "No Failure"
+    result = "Tourism Package" if prediction == 1 else "No Tourism Package"
     st.subheader("Prediction Result:")
     st.success(f"The model predicts: **{result}**")
